@@ -3,7 +3,7 @@
 >SoftLayer 除了提供 RPC-style API 服務，還提供了 RESTful API，只要利用 REST API 就算是使用的程式語言沒有支援 SOAP 或 XML-RPC，只要可以利用 HTTP 協定傳送要求，並可以解譯 XML 或 JSON 格式的資料，就可以透過 SoftLayer API 獲取想要的資訊。
 >另外在 SoftLayer Reference 中，SoftLayer API 可以看到 SoftLayer API 所有的 Services ，以及 SoftLayer API 的資料型態。在 Reference 中 SoftLayer 的 Services 通常用 SoftLayer_Account, SoftLayer_Hardware...方式表示，Services 裡面的方法通常用SoftLayer_Account::getOpenTickets,SoftLayer_Monitoring_Agent::setActiveAlarmSubscriber...方式表示。
 
-## 目錄
+## 目錄 Contents
  1. REST URLs
  2. HTTP Request Type
  3. Passing Method Parameters
